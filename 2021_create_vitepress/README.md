@@ -1,11 +1,14 @@
-## Vitepress + Visualia
+# Vitepress + Visualia
+
+## About
 
 A sample project showing how Vitepress and Visualia works together.
 
 Docs: https://github.com/visualia/visualia
+
 Source: https://visualia.netlify.app/
 
-### Getting started
+## Getting started
 
 First, run the following commands:
 
