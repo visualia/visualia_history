@@ -1,11 +1,28 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Visualia + sli.dev
 
-To start the slide show:
+## About
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
+A sample project showing how [Visualia](https://visualia.netlify.app/) and [sli.dev](https://sli.dev/) work together.
 
-Edit the [slides.md](./slides.md) to see the changes.
+Demo:
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+https://create-visualia-slidev.netlify.app
+
+Docs:
+
+https://visualia.netlify.app/
+
+https://sli.dev/
+
+## Getting started
+
+Run the following commands:
+
+```
+git clone https://github.com/visualia/create-visualia-slidev
+cd create-visualia-slidev
+npm install
+npm run dev
+```
+
+Then start editing `/slides.md` and see the changes in http://localhost:3000
