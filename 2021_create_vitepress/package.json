@@ -1,8 +1,9 @@
 {
   "name": "create-visualia-vitepress",
+  "private": true,
   "dependencies": {
-    "vitepress": "^0.14.0",
-    "visualia": "latest"
+    "visualia": "latest",
+    "vitepress": "^0.14.0"
   },
   "scripts": {
     "dev": "vitepress dev docs",
