@@ -1,22 +1,28 @@
-# Vitepress + Visualia
+# Visualia + Vitepress
 
 ## About
 
-A sample project showing how Vitepress and Visualia works together.
+A sample project showing how [Visualia](https://visualia.netlify.app/) and [Vitepress](https://vitepress.vuejs.org/) work together.
 
-Docs: https://github.com/visualia/visualia
+Demo:
 
-Source: https://visualia.netlify.app/
+https://create-visualia-vitepress.netlify.app
+
+Docs:
+
+https://visualia.netlify.app/
+
+https://vitepress.vuejs.org/
 
 ## Getting started
 
-First, run the following commands:
+Run the following commands:
 
 ```
-git clone https://github.com/visualia/create-vitepress-visualia
-cd create-vitepress-visualia
+git clone https://github.com/visualia/create-visualia-vitepress
+cd create-visualia-vitepress
 npm install
-npm run docs:dev
+npm run dev
 ```
 
-Then, start editing `/docs/index.md` and see the changes in http://localhost:3000
+Then start editing `/docs/index.md` and see the changes in http://localhost:3000
