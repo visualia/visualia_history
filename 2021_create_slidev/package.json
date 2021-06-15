@@ -9,6 +9,6 @@
   "dependencies": {
     "@slidev/cli": "^0.20.1",
     "@slidev/theme-default": "*",
-    "visualia": "latest"
+    "visualia": "^0.0.22"
   }
 }

@@ -7,7 +7,7 @@ layout: default
 
 <v-slider set="x" />
 
-> x is {{ get('x') }}
+> <v-math>x = {{ get('x') }}</v-math>
 
 ---
 
@@ -15,4 +15,4 @@ layout: default
 
 <v-animate set="y" />
 
-> y is {{ get('y') }}
+> <v-math>x = {{ get('y') }}</v-math>
