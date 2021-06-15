@@ -2,4 +2,4 @@
 
 <v-slider set="a" />
 
-<v-math>a = {{ get('a') }}</v-math>
+> <v-math>a = {{ get('a') }}</v-math>
