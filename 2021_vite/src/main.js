@@ -1,7 +1,10 @@
 import { createApp } from "vue";
-import App from "./App.vue";
 import { Visualia } from "visualia3";
+import "visualia3/style.css";
+import "./style.css";
 
-const app = createApp(App);
+import index from "./index.md";
+
+const app = createApp(index);
 app.use(Visualia);
 app.mount("#app");
