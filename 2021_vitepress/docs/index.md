@@ -1,4 +1,4 @@
-# Index
+# index.md
 
 <v-slider v-model="v.x" />
 
