@@ -1,6 +1,9 @@
 import { createApp } from "vue";
-import App from "./App.vue";
 import { Visualia } from "visualia3";
+import "visualia3/style.css";
+import "./style.css";
+
+import App from "./App.md";
 
 const app = createApp(App);
 app.use(Visualia);
