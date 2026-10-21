@@ -21,7 +21,7 @@ former repo with its **full commit history**; every former branch is kept as
 Not in this archive:
 
 - [`visualia/visualia_original`](https://github.com/visualia/visualia_original):
-  the original framework (2018–2022), kept as its own archived repo because its
+  the original framework (2020–2022), kept as its own archived repo because its
   documentation site is still live at https://visualia.github.io/visualia_original/.
 - [`visualia/visualia`](https://github.com/visualia/visualia): the current
   Visualia (2026 onward), a shared canvas and studio for learning with AI.
