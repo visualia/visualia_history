@@ -1,3 +1,6 @@
+> **Archived.** Was [`visualia/create-visualia-slidev`](https://github.com/visualia/create-visualia-slidev) (2021-06). Starter template showing Visualia inside Slidev slide decks. Its demo site no longer exists.
+> Full history and branches are kept in this repo (branches named `2021_create_slidev/…`).
+
 # Visualia + sli.dev
 
 ## About

@@ -1,3 +1,6 @@
+> **Archived.** Was [`visualia/editor`](https://github.com/visualia/editor) (2020-03 → 2020-04). Microsoft's Monaco code editor (the editor inside VS Code) packaged as a ready-to-import ES module, served from GitHub Pages so Visualia pages could add a live code editor with one script tag.
+> Full history and branches are kept in this repo (branches named `2020_editor/…`).
+
 ## About
 
 https://github.com/microsoft/monaco-editor packaged as ready-to-use ESM module

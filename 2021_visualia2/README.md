@@ -1,3 +1,6 @@
+> **Archived.** Was [`visualia/visualia2`](https://github.com/visualia/visualia2) (2021-12). A Vue 3 + TypeScript rewrite (Visualia 2): a Markdown-to-Vue compiler, KaTeX math, examples and a VitePress setup.
+> Full history and branches are kept in this repo (branches named `2021_visualia2/…`).
+
 # Vue 3 + Typescript + Vite
 
 This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
