@@ -1,0 +1,19 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "marked": "^2.1.1",
+    "monaco-editor": "^0.25.2",
+    "visualia": "^0.0.43",
+    "vue": "^3.1.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.1.1",
+    "vite": "^2.3.7"
+  }
+}
