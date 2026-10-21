@@ -1,0 +1,21 @@
+name: ci
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Install deps
+        run: yarn
+      - name: Run tests
+        uses: cypress-io/github-action@v2
+        with:
+          install: false
+          command: yarn cypress run-ct
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        if: failure()
+        with:
+          name: cypress-${{ github.run_id }}
+          path: cypress
