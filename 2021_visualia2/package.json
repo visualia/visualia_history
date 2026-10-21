@@ -1,0 +1,53 @@
+{
+  "name": "visualia2",
+  "version": "0.1.15",
+  "engines": {
+    "node": "^14.13.1 || >=16.0.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/visualia/visualia2.git"
+  },
+  "homepage": "https://github.com/visualia/visualia2",
+  "keywords": [
+    "vite",
+    "vue",
+    "vue-component"
+  ],
+  "files": [
+    "dist",
+    "src"
+  ],
+  "type": "module",
+  "main": "./dist/visualia.cjs",
+  "module": "./dist/visualia.js",
+  "exports": {
+    ".": {
+      "import": "./dist/visualia.js",
+      "require": "./dist/visualia.cjs"
+    }
+  },
+  "typings": "./dist/visualia.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "katex": "^0.15.1"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.11.1",
+    "@types/node": "^16.11.12",
+    "@types/react": "file:src/types",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "@vue/repl": "^0.4.5",
+    "vite": "^2.7.2",
+    "vitepress": "^0.20.9",
+    "vue-tsc": "^0.29.8"
+  }
+}
